@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Small programming projects implemented in every* language</title>
+    <!-- Don't hate me, I'm not a front-end designer -->
+<style>
+body { font-size: 100%; color: #222222; font-family: sans-serif; }
+a { color: #ff0000; }
+.container { display: flex; margin: auto; max-width: 960px;
+             min-height: 100%; position: relative; }
+.container > header { display: flex; flex-direction: column; flex: 1 0 0;
+                      justify-content: space-between; max-height: 100%;
+                    }
+.container > header > h1 { font-size: 3em; margin: 0; }
+.container > header > h2 { font-weight: normal; font-size: 1rem; align-self: flex-end; }
+.inner-container { flex: 2 0 0; margin-left: 3rem; }
+article > section { margin-top: 2rem; }
+header > h1 { font-size: 3rem; margin: 0; color: #444466; }
+header > h2 { margin: 0; color: #444466; }
+</style>
+  </head>
+  <body>
+    <section class="container">
+    <header>
+      <h1>Programming projects implemented in every<sup>*</sup> language</h1>
+      <h2><sup>*</sup>well, many</h2>
+    </header>
+    <div class="inner-container">
+    <article class="content">
+      <header><h1>What this is about</h1></header>
+      <p>Using the same programming project across many different languages
+      allows you to concentrate on how a particular language is used, rather
+      than on solving a problem.</p>
+      <p>This idea was picked up from
+      <a href="http://turing.cool">Turing Incomplete</a>'s Justin Campbell.</p>
+      <p>This organization is open to anyone to contribute. If you would like
+      to contribute,
+      <a href="https://github.com/ineverylanguage/ineverylanguage.github.io/issues">create an issue</a> and I'll make a repo for you and give you full access to
+      that repo.  And if you'd like to contribute an implementation to any
+      of the projects below, submit a pull request to that repo.</p>
+    </article>
+    <article class="projects">
+      <section class="complete">
+        <header><h1>Ready Projects</h1></header>
+        <p>We do not currently have any projects ready for you to look at.
+        Ready projects are those that have multiple languages implemented, and
+        are building up additional languages, and open for contributions in a
+        language that is not currently covered</p>
+      </section>
+      <section class="development">
+        <header><h1>In Development</h1></header>
+        <p>In Development projects are ones that aren't quite ready for
+        public consumption, but that doesn't mean code doesn't exist.  Either
+        they aren't implemented, or there is only a single reference
+        implementation.</p>
+        <ul>
+          <li><a href="https://github.com/ineverylanguage/gossip">A Gossip Protocol</a></li>
+        </ul>
+      </section>
+    </article>
+    </div>
+    </section>
+  </body>
+</html>
